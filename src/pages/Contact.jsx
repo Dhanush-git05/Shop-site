@@ -32,7 +32,7 @@ export default function Contact() {
       <div className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-lg">
 
         {/* Title */}
-        <h1 className="text-3xl font-bold text-center text-red-600 mb-2">
+        <h1 className="text-3xl font-bold text-center text-red-600 mb-2" style={{ marginTop: '40px' }}>
           Ganesh Textiles
         </h1>
         <p className="text-center text-gray-500 mb-6">
@@ -95,9 +95,9 @@ export default function Contact() {
 
         {/* Contact Info */}
         <div className="mt-6 text-center text-gray-600 text-sm">
-          <p>📍 Chennai, Tamil Nadu</p>
-          <p>📞 +91 98765 43210</p>
-          <p>📧 ganeshtextiles@gmail.com</p>
+          <p>📍 Kanchipuram, Tamil Nadu</p>
+          <p>📞 +91 9003511447</p>
+          <p>📧 sgtkpm@gmail.com</p>
         </div>
       </div>
     </div>

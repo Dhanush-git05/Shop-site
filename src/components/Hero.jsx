@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { motion } from 'framer-motion';
 
+const MotionLink = motion(Link);
 const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen mt-16 flex items-center justify-center overflow-hidden">
@@ -56,14 +58,15 @@ const Hero = () => {
           >
             Shop Now 🛍️
           </motion.a>
-          <motion.a 
-            href="#contact"
-            whileHover={{ scale: 1.08 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-white/20 text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-white/30 transition-all duration-300 border-2 border-white/50 backdrop-blur-md"
-          >
-            Contact Us 💬
-          </motion.a>
+          
+          <MotionLink
+          to="/contact"
+          whileHover={{ scale: 1.08 }}
+          whileTap={{ scale: 0.95 }}
+          className="bg-white/20 text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-white/30 transition-all duration-300 border-2 border-white/50 backdrop-blur-md"
+        >
+          Contact Us 💬
+        </MotionLink>
         </motion.div>
       </div>
     </section>

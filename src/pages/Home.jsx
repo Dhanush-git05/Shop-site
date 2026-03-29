@@ -1,7 +1,8 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import ProductCard from '../components/ProductCard';
-import ContactForm from '../components/ContactForm';
+
+
 import { motion } from 'framer-motion';
 
 const products = [
@@ -48,7 +49,8 @@ const Home = () => {
         </div>
       </section>
 
-      <ContactForm />
+      
+      
     </main>
   );
 };
