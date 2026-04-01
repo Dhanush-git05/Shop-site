@@ -11,8 +11,8 @@ const Navbar = () => {
             <span className="text-pink-400">TEXTILES</span>
           </div>
           <div className="hidden md:flex space-x-1 font-semibold">
-            <a href="#home" className="text-white/80 hover:text-white px-4 py-2 rounded-lg hover:bg-white/10 transition duration-300">Home</a>
-            <a href="#products" className="text-white/80 hover:text-white px-4 py-2 rounded-lg hover:bg-white/10 transition duration-300">Products</a>
+             <Link to="/"className="text-white/80 hover:text-white px-4 py-2 rounded-lg hover:bg-white/10 transition duration-300">Home</Link>
+             <Link to="/ProductCard"className="text-white/80 hover:text-white px-4 py-2 rounded-lg hover:bg-white/10 transition duration-300">Products</Link>
              <Link to="/About" className="text-white/80 hover:text-white px-4 py-2 rounded-lg hover:bg-white/10 transition duration-300">About Us</Link>
           </div>
           <button className="md:hidden p-2 text-white hover:bg-white/10 rounded-lg transition">

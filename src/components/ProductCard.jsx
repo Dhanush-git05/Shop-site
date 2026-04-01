@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { MessageCircle } from 'lucide-react';
 
 const ProductCard = ({ product }) => {

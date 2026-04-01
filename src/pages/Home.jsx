@@ -1,17 +1,25 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import ProductCard from '../components/ProductCard';
+import shirtImg from "../assets/Shirts.avif";
 
 
 import { motion } from 'framer-motion';
 
 const products = [
-  { id: 1, name: "Menswear", price: "₹4,500", category: "Sarees", image: "/assets/Shirts.avif" },
-  { id: 2, name: "Ladies Dresses", price: "₹1,200", category: "Men's Wear", image: "https://images.unsplash.com/photo-1598033129183-c4f50c7176c8?q=80&w=800" },
-  { id: 3, name: "Kids Wear", price: "₹2,800", category: "Dresses", image: "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?q=80&w=800" },
+    {
+    id: 1,
+    name: "Menswear",
+    price: "₹4,500",
+    category: "Shirts",
+    image: shirtImg
+  },
+
+  { id: 2, name: "Ladies Dresses", price: "₹1,200", category: "Tops&Bottoms", image: "https://images.unsplash.com/photo-1598033129183-c4f50c7176c8?q=80&w=800" },
+  { id: 3, name: "Kids Wear", price: "₹2,800", category: "Kidlybooo", image: "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?q=80&w=800" },
   { id: 4, name: "Readymades", price: "₹800/m", category: "Fabrics", image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=800" },
   { id: 5, name: "Kanchipuram Silk sarees", price: "₹8,000", category: "Sarees", image: "https://images.unsplash.com/photo-1610030469668-935102a701e6?q=80&w=800" },
-  { id: 6, name: "Shoes ", price: "₹1,500", category: "Women's Wear", image: "https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=800" },
+  { id: 6, name: "Shoes ", price: "₹1,500", category: "Leathers", image: "https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=800" },
 ];
 
 const Home = () => {
